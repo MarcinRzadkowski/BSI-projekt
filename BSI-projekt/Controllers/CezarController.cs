@@ -10,9 +10,18 @@ namespace BSI_projekt.Controllers
             return View();
         }
 
-        public IActionResult Form()
+        public IActionResult deszyfr(Cezar model)
         {
-            return View();
+            return View(model);
         }
+
+        public IActionResult szyfr(Cezar model)
+        {
+            return View(model);
+        }
+
+
+            
+
     }
 }
