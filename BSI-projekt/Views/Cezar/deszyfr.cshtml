@@ -8,7 +8,7 @@
     <h1 class="display-4">Cezar</h1>
 </div>
 <div>
-    <form action="szyfr" method="get">
+    <form action="deszyfr" method="get">
         <div>
             <label for="input">Wpisz tekst do odszyfrowania:</label>
         </div>
@@ -43,21 +43,13 @@
             <option>23</option>
             <option>24</option>
             <option>25</option>
-            <option>26</option>
-            <option>27</option>
-            <option>28</option>
-            <option>29</option>
-            <option>30</option>
-            <option>31</option>
-            <option>32</option>
-            <option>33</option>
-            <option>34</option>
-            <option>35</option>
+            <option>26</option>            
         </select>
-        <button class="btn btn-primary" type="submit">Szyfruj</button>
+        <br />
+        <button class="btn btn-primary" type="submit">Odszyfruj</button>
     </form>
-    <br />
-    <h3>odszyfrowany text</h3>
+    <hr class="solid" />
+    <h6>odszyfrowany text:</h6>
     <p>@Model.odszyfruj()</p>
 
 </div>
